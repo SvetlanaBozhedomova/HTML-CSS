@@ -47,14 +47,32 @@ body{
 }
 .page-header-logo {
   display: block;
+  width: 44px;
+  height: 38px;
 }
-.page-header-search,
-.page-header-menu, 
-.page-header-account, 
-.page-header-cart {
+.page-header-logo img {
+  width: 100%;
+  height: 100%;
+}
+.page-header-btn {
   background: transparent;
-  border: none;  
+  border: none;
+  width: 32px;
+  height: 30px;
+  padding: 0;  
 }
+.page-header-btn svg {
+  fill: #E8E8E8;
+  width: 100%;
+  height: 100%;
+}
+.page-header-btn:hover svg {
+  opacity: 0.6;
+}  
+.page-header-btn:active svg {
+  fill: #F16D7F;
+}  
+
 /* корзина со счётчиком */
 .page-header-cart {
   position: relative;
@@ -64,8 +82,8 @@ body{
   display: inline-block;
   width: 19px;
   height: 19px;
-  color: white;
-  background-color: #F16D7F;;
+  color: #FFFFFF;
+  background-color: #F16D7F;
   border-radius: 50%;
   text-align: center;
   right: -8px;
@@ -481,7 +499,6 @@ body{
   color: #FFFFFF;
 }
 
-
 /* =======  section footer  ======= */
 
 .page-footer {
@@ -510,12 +527,17 @@ body{
 }
 .page-footer-socials-item {
   display: flex;
-  justify-content: center;
-  align-items: center;
   width: 32px;
   height: 32px;
   background-color: #FFFFFF;
 }
+.page-footer-socials-item svg {
+  margin: auto;
+  fill: #000000;
+}
 .page-footer-socials-item:hover {
-  background: #F16D7F;
+  background-color: #F16D7F;  
+}
+.page-footer-socials-item:hover svg{
+  fill: #FFFFFF;
 }
