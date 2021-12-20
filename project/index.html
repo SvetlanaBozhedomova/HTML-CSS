@@ -27,78 +27,80 @@
           </button>
         </div>
         <div class="page-header-btn-group">
-          <button class="page-header-menu page-header-btn">
-            <!--<img src="img/menu.png" alt="menu" height="23">-->
-            <svg width="32" height="23" viewBox="0 0 32 23" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z" />
-            </svg>
-          </button>
-          <!---->
           <nav class="menu">
-            <a href="#" class="menu-close-btn">X</a>
-            <div class="menu-title">menu</div>
-            <ul class="menu-list">
-              <li class="menu-list-item">
-                <a href="#">man</a>
-                <ul class="menu-sublist">
-                  <li class="menu-sublist-item">
-                    <a href="#">Accessories</a>
-                  </li>
-                  <li class="menu-sublist-item">
-                    <a href="#">Bags</a>
-                  </li>
-                  <li class="menu-sublist-item">
-                    <a href="#">Denim</a>
-                  </li>
-                  <li class="menu-sublist-item">
-                    <a href="#">T-Shirts</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-list-item">
-                <a href="#">woman</a>
-                <ul class="menu-sublist">
-                  <li class="menu-sublist-item">
-                    <a href="#">Accessories</a>
-                  </li>
-                  <li class="menu-sublist-item">
-                    <a href="#">Jackets &amp;&nbsp;Coats</a>
-                  </li>
-                  <li class="menu-sublist-item">
-                    <a href="#">Polos</a>
-                  </li>
-                  <li class="menu-sublist-item">
-                    <a href="#">T-Shirts</a>
-                  </li>
-                  <li class="menu-sublist-item">
-                    <a href="#">Shirts</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-list-item">
-                <a href="#">kids</a>
-                <ul class="menu-sublist">
-                  <li class="menu-sublist-item">
-                    <a href="#">Accessories</a>
-                  </li>
-                  <li class="menu-sublist-item">
-                    <a href="#">Jackets &amp;&nbsp;Coats</a>
-                  </li>
-                  <li class="menu-sublist-item">
-                    <a href="#">Polos</a>
-                  </li>
-                  <li class="menu-sublist-item">
-                    <a href="#">T-Shirts</a>
-                  </li>
-                  <li class="menu-sublist-item">
-                    <a href="#">Shirts</a>
-                  </li>
-                  <li class="menu-sublist-item">
-                    <a href="#">Bags</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+            <input type="checkbox" id="checkbox" class="menu-checkbox">
+            <label for="checkbox" class="page-header-menu page-header-btn">
+              <svg width="32" height="23" viewBox="0 0 32 23" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z" />
+              </svg>
+            </label>
+            <!---->
+            <div class="menu-container">
+              <a href="#" class="menu-close-btn">X</a>
+              <div class="menu-title">menu</div>
+              <ul class="menu-list">
+                <li class="menu-list-item">
+                  <a href="#">man</a>
+                  <ul class="menu-sublist">
+                    <li class="menu-sublist-item">
+                      <a href="#">Accessories</a>
+                    </li>
+                    <li class="menu-sublist-item">
+                      <a href="#">Bags</a>
+                    </li>
+                    <li class="menu-sublist-item">
+                      <a href="#">Denim</a>
+                    </li>
+                    <li class="menu-sublist-item">
+                      <a href="#">T-Shirts</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-list-item">
+                  <a href="#">woman</a>
+                  <ul class="menu-sublist">
+                    <li class="menu-sublist-item">
+                      <a href="#">Accessories</a>
+                    </li>
+                    <li class="menu-sublist-item">
+                      <a href="#">Jackets &amp;&nbsp;Coats</a>
+                    </li>
+                    <li class="menu-sublist-item">
+                      <a href="#">Polos</a>
+                    </li>
+                    <li class="menu-sublist-item">
+                      <a href="#">T-Shirts</a>
+                    </li>
+                    <li class="menu-sublist-item">
+                      <a href="#">Shirts</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-list-item">
+                  <a href="#">kids</a>
+                  <ul class="menu-sublist">
+                    <li class="menu-sublist-item">
+                      <a href="#">Accessories</a>
+                    </li>
+                    <li class="menu-sublist-item">
+                      <a href="#">Jackets &amp;&nbsp;Coats</a>
+                    </li>
+                    <li class="menu-sublist-item">
+                      <a href="#">Polos</a>
+                    </li>
+                    <li class="menu-sublist-item">
+                      <a href="#">T-Shirts</a>
+                    </li>
+                    <li class="menu-sublist-item">
+                      <a href="#">Shirts</a>
+                    </li>
+                    <li class="menu-sublist-item">
+                      <a href="#">Bags</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </nav>
           <!---->
           <button class="page-header-account page-header-btn">
@@ -239,7 +241,8 @@
           </article>
         </div>
 
-        <button class="products-btn">Browse All Product</button>
+        <!--<button class="products-btn">Browse All Product</button>-->
+        <a href="#" class="products-btn">Browse All Product</a>
       </section>
 
       <section class="features">

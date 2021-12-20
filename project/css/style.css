@@ -9,7 +9,7 @@ body{
   color: #222222;
 }
 .container {
-  max-width: 1600px;
+  max-width: 100%;  /*1600px;*/
   margin: 0 auto;
 }
 .content-center {
@@ -94,8 +94,11 @@ body{
 
 /* =======  menu  ======= */
 
-.menu {
-  /*display: none;*/
+.menu-checkbox {
+  display: none;
+}
+.menu-container {
+  display: none;
   width: 232px;
   height: 764px;
   top: 75px;
@@ -109,6 +112,9 @@ body{
   z-index: 20;
   font-size: 14px;
   line-height: 17px;
+}
+.menu-checkbox:checked ~ .menu-container {
+  display: block;
 }
 .menu-close-btn {
   display: block;
@@ -362,6 +368,7 @@ body{
   font-size: 16px;
   line-height: 19px;
   text-align: center;
+  text-decoration: none;
 }
 .products-btn:hover {
   background-color: #F16D7F;
@@ -470,7 +477,6 @@ body{
   align-items: center;  
 }
 .subscribe-form-email {
- /* display: block;*/
   display: flex;
   align-items: center;
   padding-left: 22px;
@@ -485,6 +491,9 @@ body{
   color: #222224;
   opacity: 0.67;  
 }
+.subscribe-form-email:focus {
+  outline: 1px solid #FF6A6A;
+}
 .subscribe-form-btn {
   display: block;
   width: 100px;
@@ -497,6 +506,9 @@ body{
   line-height: 17px;
   text-align: center;
   color: #FFFFFF;
+}
+.subscribe-form-btn:hover {
+  outline: 1px solid #FF6A6A;
 }
 
 /* =======  section footer  ======= */
