@@ -379,6 +379,7 @@ body{
 .products-btn:hover {
   background-color: #F16D7F;
   color: #fff;
+  transition: 0.5s;
 }
 
 /* =======  section features  ======= */
@@ -774,6 +775,7 @@ body{
   background-color: #FFFFFF;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
   list-style: none;
+  text-align: left;
 }
 .products-size-item {
   margin: 0 9px 9px 0;
@@ -816,6 +818,7 @@ body{
 }
 .products-pagination a:hover {
   color: #EF5B70;
+  transform: scale(1.5);
 }
 .products-pagination a:active {
   color: #EBEBEB; /* #222222;*/
@@ -922,6 +925,10 @@ body{
   line-height: 29px;  
   color: #EF5B70;
 }
+.allocated-price:hover {
+  transform: rotate(-360deg);
+  transition: 2s;
+}
 .allocated-choice {
   width: 100%;
   color: #6F6E6E;
@@ -955,6 +962,7 @@ body{
 }
 .allocated-btn:hover {
   background-color: #F16D7F;
+  transition: 0.5s;
 }
 .allocated-btn:hover svg {
   fill: #FFFFFF;
