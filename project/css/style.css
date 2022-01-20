@@ -1,9 +1,39 @@
+@font-face {
+  font-family: lato;
+  src: url('../fonts/lato-black.ttf');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: lato;
+  src: url('../fonts/lato-bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: lato;
+  src: url('../fonts/lato-regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: lato;
+  src: url('../fonts/lato-light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: lato;
+  src: url('../fonts/lato-italic.ttf');
+  font-weight: 400;
+  font-style: italic;
+}
 * {
   padding: 0;
   margin: 0;
 }
 body {
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
   font-style: normal;
   font-weight: 400;
   background-color: #fff;
@@ -170,6 +200,7 @@ body {
 }  
 .menu-title {
   font-weight: 700;
+  font-style: normal;
   color: #000000;
   text-transform: uppercase;
   margin: 0 0 24px 0;
@@ -237,12 +268,14 @@ body {
 .page-banner-title {
   display: block;
   font-weight: 900;
+  font-style: normal;
   font-size: 48px;
   line-height: 58px;
 }
 .page-banner-subtitle {
   display: block;
   font-weight: 700;
+  font-style: normal;
   font-size: 32px;
   line-height: 38px;
 }
@@ -291,12 +324,14 @@ body {
 }
 .categories-item-title {
   font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
 }
 .categories-item-subtitle {
   font-weight: 700;
+  font-style: normal;
   font-size: 24px;
   line-height: 28px;
   color: #F16D7F;
@@ -307,6 +342,7 @@ body {
 .products {
   width: 100%;
   font-weight: 400;
+  font-style: normal;
   text-align: center;
   margin-bottom: 96px;
 }
@@ -387,6 +423,7 @@ body {
 .products-item-text {
   margin: 0 0 18px 0;
   font-weight: 300;
+  font-style: normal;
   font-size: 14px;
   line-height: 17px;
   color: #5D5D5D;
@@ -449,6 +486,7 @@ body {
 }
 .features-item-text {
   font-weight: 300;
+  font-style: normal;
   font-size: 14px;
   line-height: 17px;
   text-align: center;
@@ -489,6 +527,7 @@ body {
 }
 .subscribe-info-text span {
   font-style: italic;
+  font-weight: 400;
 }
 .subscribe-form-wrp {
   max-width: 557px;
@@ -505,6 +544,7 @@ body {
   font-size: 24px;
   line-height: 40px;
   font-weight: 700;
+  font-style: normal;
   text-transform: uppercase;
   text-align: center;
 }
@@ -513,6 +553,7 @@ body {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
+  font-style: normal;
 }
 .subscribe-form {
   width: 100%;
@@ -621,6 +662,7 @@ body {
 }
 .page-caption-title {
   font-weight: 400;
+  font-style: normal;
   font-size: 24px;
   line-height: 29px;
   margin: 0 1.28%;
@@ -628,6 +670,7 @@ body {
 .page-caption-breadcrumb {
   list-style: none;  
   font-weight: 700;
+  font-style: normal;
   font-size: 14px;
   line-height: 17px;
   margin: 0 1.28%;
@@ -638,6 +681,7 @@ body {
 .page-caption-breadcrumb-item a {
   text-decoration: none;
   font-weight: 300;
+  font-style: normal;
   color: #636363;
 }
 .page-caption-breadcrumb-item a:after {
@@ -673,6 +717,7 @@ body {
   padding: 13px 16px 16px 16px;
   box-sizing: border-box;
   font-weight: 700;   /*600;*/
+  font-style: normal;
   color: #000000;
   position: relative;
 }
@@ -723,6 +768,7 @@ body {
 .products-filter-list {
   list-style: none;
   font-weight: 400;
+  font-style: normal;
   margin-top: 16px;
 }
 .products-filter-list-item {
@@ -786,6 +832,7 @@ body {
 }
 .products-select {
   font-weight: 400;
+  font-style: normal;
   color: #6F6E6E;  
   flex-wrap: nowrap;
 }
@@ -853,6 +900,7 @@ body {
   margin: 0 -2px;
   text-decoration: none;
   font-weight: 300;
+  font-style: normal;
   font-size: 16px;
   line-height: 19px;
   color: #9F9F9F;  
@@ -862,6 +910,7 @@ body {
 .products-pagination a:last-child {
   color: #000000;
   font-weight: 700;  /*600;*/
+  font-style: normal;
 }
 .products-pagination a.products-pagination-current {
   color: #EF5B70;
@@ -906,6 +955,7 @@ body {
   color: #000000;
   background-color: rgba(42, 42, 42, 0.15);
   font-weight: 700;  /*600;*/
+  font-style: normal;
   font-size: 21px;
   line-height: 21px;
 }
@@ -935,6 +985,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 17px; 
   text-align: center;
@@ -942,6 +993,7 @@ body {
 }
 .allocated-title {
   font-weight: 300;
+  font-style: normal;
   color: #F16D7F;
   text-transform: uppercase;
   position: relative;
@@ -959,6 +1011,7 @@ body {
 }
 .allocated-subtitle {
   font-weight: 300;
+  font-style: normal;
   font-size: 18px;
   line-height: 22px;  
   color: #4D4D4D;
@@ -969,11 +1022,13 @@ body {
   max-width: 555px;
   width: 100%;
   font-weight: 300;
+  font-style: normal;
   color: #5E5E5E;
   margin: 0 auto 32px;
 }
 .allocated-price {
   font-weight: 300;
+  font-style: normal;
   font-size: 24px;
   line-height: 29px;  
   color: #EF5B70;
@@ -1069,6 +1124,7 @@ body {
   max-width: 390px;
   width: 100%;
   font-weight: 400;
+  font-style: normal;
   font-size: 22px;
   line-height: 26px;
   color: #575757;
@@ -1125,6 +1181,7 @@ body {
 }
 .cart-products-btn {
   font-weight: 300;
+  font-style: normal;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
@@ -1146,6 +1203,7 @@ body {
   max-width: 360px;
   width: 100%;
   font-weight: 300;
+  font-style: normal;
   font-size: 16px;
   line-height: 19px;
   color: #222222;
@@ -1199,6 +1257,7 @@ body {
 }
 .cart-cost-subtotal {
   font-weight: 400;
+  font-style: normal;
   font-size: 11px;
   line-height: 13px;
   color: #4A4A4A;
@@ -1213,6 +1272,7 @@ body {
 }
 .cart-cost-total span {
   font-weight: 700;
+  font-style: normal;
   color: #FF6A6A;
   margin-left: 20px;
 }
@@ -1236,6 +1296,7 @@ body {
   border: 1px solid #F16D7F;
   text-transform: uppercase;
   font-weight: 300;
+  font-style: normal;
   font-size: 16px;
   line-height: 19px;
 }
@@ -1249,6 +1310,7 @@ body {
   width: 100%;
   margin: 64px auto 96px;
   font-weight: 300;
+  font-style: normal;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -1292,6 +1354,7 @@ body {
   height: 50px;
   text-transform: uppercase;
   font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;  
