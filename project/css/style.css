@@ -46,6 +46,9 @@ body {
   justify-content: space-between;
   align-items: flex-end;  
 }
+.page-header-btn-group:first-child {
+  position: relative;   /* для поиска */ 
+}
 .page-header-btn-group:last-child {
   width: 168px;
 }
@@ -76,6 +79,31 @@ body {
 .page-header-btn:active svg {
   fill: #FF6A6A;    
 }  
+
+/* поиск */
+.search-input {
+  position: absolute;
+  left: 118px;
+  top: 6px;
+  z-index: 15;
+  width: 0;
+  height: 0;
+  outline: none;
+  background-color: transparent;
+  color: #E8E8E8;
+  border: none;
+  padding: 0 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+}
+.search-input:focus {
+  width: 110px;
+  height: 28px;
+  transition: width 1s ease;
+  outline: 1px solid #E8E8E8;
+}
 
 /* корзина со счётчиком */
 .page-header-cart {
@@ -117,9 +145,12 @@ body {
   font-size: 14px;
   line-height: 17px;
   text-align: left;
+  /*overflow: hidden;
+  transition: height 1s ease;*/
 }
 .menu-checkbox:checked ~ .menu-container {
   display: block;
+  /*transition: height 1s ease;*/
 }
 .menu-close-btn {
   position: absolute;
@@ -234,9 +265,6 @@ body {
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   margin: 0 1.28% 2.56% 1.28%; /* 0 15px 30px 15px */
 }
 .categories-item:nth-child(1) {
@@ -255,10 +283,11 @@ body {
   margin-bottom: 0;
 } 
 /* надписи */
-.categories-item-title,  
-.categories-item-subtitle{
-  display: block;
+.categories-item-link {
+  text-decoration: none;
+  text-align: center;
   text-transform: uppercase;
+  margin: auto;
 }
 .categories-item-title {
   font-weight: 400;
