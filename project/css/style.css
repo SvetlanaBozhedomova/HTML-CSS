@@ -1395,7 +1395,7 @@ body {
 
 /* =======  для очень узких компьютеров  ======= */
 
-@media (max-width: 868px) and (min-width: 769px) {
+@media (max-width: 874px) and (min-width: 769px) {
   /* карточки товаров в cart */
   .cart-product-info {
     padding-left: 20px;
